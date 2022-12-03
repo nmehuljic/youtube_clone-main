@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paragraphPrijava {
+  padding-right: 20px;
+}
+
+hr {
+  margin: 0;
+}
+.btnSubNav {
+  border-radius: 30px;
+  background-color: rgba(212, 208, 208, 0.452);
+}
+.btnSubNavFirst {
+  border-radius: 30px;
+}
+.rowCards {
+  margin-left: 10px;
+}
+.sidebarMenu {
+  display: none !important;
+}
+#listSidebar {
+  border: 0;
+  margin-left: 21px;
+  padding-right: 0;
+}
+.listSidebar small {
+  font-size: 11px;
+}
+.listSidebar svg {
+  margin-right: 0;
+  justify-content: center;
+}
+.listaYoutubeTv {
+  position: absolute;
+  margin-left: 0.5rem;
+  margin-top: -7px !important;
+  width: 12rem;
+  border-radius: 0;
+}
+.listaYoutubeTv li {
+  height: 2.5rem;
+}
+.listaPostavke {
+  position: absolute !important;
+  margin-top: 2rem !important;
+  width: 17rem;
+  border-radius: 0;
+  width: 19rem;
+  padding-top: 0;
+}
+.listaPostavke li {
+  height: 2.5rem;
+}
+#listaPostavke > li:nth-child(4) > div > div.col-sm-10 > p {
+  font-size: smaller;
+  text-decoration: solid;
+}
